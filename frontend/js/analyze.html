@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Threat Analysis</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/analyze.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-icon">CS</span>
+            <span>CyberShield</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="index.html#services">Services</a>
+        </div>
+    </nav>
+
+    <section class="analysis-section">
+
+        <span class="section-tag">CYBERSHIELD ANALYSIS</span>
+
+        <h1 id="pageTitle">Message Detection</h1>
+
+        <p class="analysis-description" id="pageDescription">
+            Enter your message to check for suspicious activity.
+        </p>
+
+        <div class="analysis-box">
+
+            <div id="inputContainer"></div>
+
+            <button type="button" id="analyzeButton" class="analyze-btn">
+                Analyze Now
+            </button>
+
+            <p id="message"></p>
+
+            <div id="resultBox" class="result-box" style="display:none;">
+                <h2>Analysis Result</h2>
+                <h3 id="riskLevel"></h3>
+                <p id="riskExplanation"></p>
+
+                <h4>Safety Recommendations</h4>
+                <p id="recommendation"></p>
+            </div>
+
+        </div>
+
+        <a href="index.html#services" class="back-link">
+            ← Back to Services
+        </a>
+
+    </section>
+
+    <footer class="footer">
+        <h3>CyberShield</h3>
+        <p>Detect the threat. Explain the risk. Protect the user.</p>
+        <p class="copyright">© 2026 CyberShield. All Rights Reserved.</p>
+    </footer>
+
+</div>
+
+<script src="analyze.js"></script>
+
+</body>
+</html>
